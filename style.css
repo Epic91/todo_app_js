@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #e9c960, #fda085);
+    background-image: linear-gradient(120deg, #81abdb, #452886);
     color: white;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -32,14 +32,14 @@ form button {
 }
 
 form button {
-    color: #fda085;
+    color: #452886;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #fda085;
+    background: #452886;
     color: white;
 }
 
@@ -70,7 +70,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-    background: #ff6f47;
+    background: #fb2222;
     color: white;
     border: none;
     padding: 1rem;
@@ -79,4 +79,8 @@ form button:hover {
 }
 .complete-btn {
     background: rgb(8, 180, 8);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
 }
